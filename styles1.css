@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background: #00ADB5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 34px;
+    font-weight:800;
+}
+
+.header-icons .icon {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background: #00ADB5;
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile h2 {
+    margin: 10px 0 5px;
+}
+
+.profile .employee-role {
+    background-color: #800080;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nav {
+    width: 200px; 
+}
+
+.styled-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.styled-list li {
+    background-color: #fff; 
+    color: #000;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+}
+
+.styled-list li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 20px 0;
+}
+
+.nav ul li a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a.active {
+    background-color: #800080;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-content {
+    border: 10px solid #800080;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    background: #ffffff;
+    padding: 10px;
+}
+
+.tab-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tab-button.active {
+    background-color: transparent;
+    border-bottom: 2px solid #8015A7;
+    color: #8015A7
+    ;
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-title {
+    background-color: #800080;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: calc(33.33% - 10px);
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.save-button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 0;
+}
